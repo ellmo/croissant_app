@@ -8,7 +8,8 @@ window.CRA =
   Models: {}
   Collections: {}
   Routers: {}
-  Views: {}
+  Views:
+    Home: {}
 
 new Croissant.Terrain("wall", true)
 new Croissant.Terrain("dirt", false)

@@ -14,8 +14,8 @@
 #/= require jquery_ujs
 #/= require underscore
 #/= require_tree ./croissant_lib
-#/= require_tree .
 #/= require backbone
 #/= require backbone_rails_sync
 #/= require backbone_datalink
 #/= require backbone/cra
+#/= require_tree .
