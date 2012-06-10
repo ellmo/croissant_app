@@ -12,3 +12,6 @@ window.CRA =
 
 new Croissant.Terrain("wall", true)
 new Croissant.Terrain("dirt", false)
+
+$ ->
+  new CRA.Initializer()

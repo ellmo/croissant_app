@@ -1,9 +1,11 @@
 !!!
 %html
   %head
-    %title CroissantApp
-    = stylesheet_link_tag    "application", :media => "all"
+    %title Croissant
+    = stylesheet_link_tag    "application"
     = javascript_include_tag "application"
     = csrf_meta_tags
-  %body
-    = yield
+  %body{ :data => backbone_data_hash }
+    .container#topmost
+      .row
+        = yield
